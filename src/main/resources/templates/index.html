@@ -39,7 +39,7 @@
 <link rel="icon" th:href="@{/img/favicon-big.png}" type="image/png" sizes="32x32">
 </head>
 <body style="width: 85%; margin: 0 auto;">
-	<img style="margin-left: 0; width: 1616px;" th:src="@{/img/branding-image.PNG}" alt="background"/>
+	<img style="margin-left: 0; max-width: 100%;" th:src="@{/img/branding-image.PNG}" alt="background"/>
 	
 	<form th:action=@{/send} method="post" th:object="${emailForm}">
 	  <div class="container">
